@@ -1,0 +1,53 @@
+/* const { type } = require('os');
+const readline = require('readline');
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+}); */
+
+/* let resultado;
+
+rl.question('Digite um número: ', (num1) => {
+    rl.question('Digite o segundo número: ', (num2) => {
+        rl.question('Digite o terceiro número: ', (num3) => {
+        console.log(typeof num1);
+        num1 = parseFloat(num1);
+        num2 = parseFloat(num2);
+        num3 = parseFloat(num3);
+        resultado = num1 + num2 +num3;
+        console.log('Valor da operação: ', resultado);
+        rl.close();
+});
+});
+}); */
+
+
+/* let num1;
+let num2;
+let num3;
+let contador = 0;
+let resposta;
+console.log('Digite um número:') // Mensagem adicionada
+rl.on('line', (resposta) => {
+    contador++;
+    if (contador === 1) {
+        num1 = parseFloat(resposta);
+        console.log('Digite um número:');
+    } else if (contador === 2) {
+        num2 = parseFloat(resposta);
+        console.log('Digite um número:');
+    } else if (contador === 3) {
+        num3 = parseFloat(resposta);
+        const resultado = num1 + num2 + num3;
+        console.log('Valor da operação:', resultado);
+        rl.close();
+    }
+}); */
+
+let gerador = Math.round(Math.random() * 100 - 0 + 0);
+let numeros = [];
+console.log(gerador);
+for (let i = 0; i < 10; i++) {
+    
+}
+console.log(numeros)

@@ -1,0 +1,10 @@
+Partindo da Pasta Documentos, iniciei o desafio, descrito abaixo:
+Passo 1 Utilizei: mkdir EstacaoEspacial
+Passo 2 Utilizei: mkdir Habitacao Laboratorio Hangar
+Passo 3 Utilizei: cd Habitacao & mkdir quarto1 quarto2 quarto3
+Passo 4 Utilizei: cd .. & cd Laboratorio & mkdir Pesquisa1 Pesquisa2
+Passo 5 Utilizei: cd .. & cd Hangar & mkdir garagem1 garagem2 garagem3
+Passo 6 Utilizei: cd .. & rm -r Hangar
+Passo 7 Utilizei: touch BoasVindas.txt & echo "Bem vindos à Estação Espacial" > BoasVindas.txt
+Passo 8 Utilizei: cp BoasVindas.txt Laboratorio
+Passo 9 Utilizei: cd Laboratorio & echo "Bem vindos à Estação Espacial! Este é o laboratório!" > BoasVindas.txt
